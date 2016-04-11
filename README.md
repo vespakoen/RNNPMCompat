@@ -10,7 +10,35 @@ If you want to test it in your own project, follow the steps below.
 @todo, evaluate if we need to use others for react-native
 
 ```shell
-npm install --save-dev actual-empty-file assert browserify-zlib buffer console-browserify constants-browserify crypto-browserify domain-browser events https-browserify os-browserify path-browserify process punycode querystring-es3 readable-stream stream-browserify stream-http string_decoder timers-browserify tty-browserify url util vm-browserify
+npm install --save-dev actual-empty-file \
+  assert \
+  browserify-zlib \
+  buffer \
+  console-browserify \
+  constants-browserify \
+  domain-browser \
+  events \
+  https-browserify \
+  os-browserify \
+  path-browserify \
+  process \
+  punycode \
+  querystring-es3 \
+  readable-stream \
+  stream-browserify \
+  string_decoder \
+  timers-browserify \
+  tty-browserify \
+  url \
+  util \
+  vm-browserify \
+  react-native-udp \
+  react-native-tcp \
+  react-native-level-fs \
+  react-native-crypto \
+  react-native-http \
+  asyncstorage-down \
+  react-native-randombytes
 ```
 
 ## Add global-react-native key to package.json
